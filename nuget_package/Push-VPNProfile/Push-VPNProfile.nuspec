@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Push-VPNProfile</id>
+    <version>1.0.0</version>
+    <authors>JackC</authors>
+    <owners>JackC</owners>
+    <description>Pushes ABC's Cisco VPN Profile</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>

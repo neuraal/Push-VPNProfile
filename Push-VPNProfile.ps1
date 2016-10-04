@@ -19,4 +19,4 @@ $dir = "$env:programdata\Cisco\Cisco AnyConnect Secure Mobility Client\Profile\"
 get-childitem "$dir" -include *.xml -recurse | foreach ($_) {remove-item $_.fullname}
 
 # Copy vpn profile 'abcvpn.xml' to $dir
-copy-item "$PSScriptRoot\abcvpn.xml" -destination "$dir
+copy-item "$PSScriptRoot\abcvpn.xml" -destination "$dir"
